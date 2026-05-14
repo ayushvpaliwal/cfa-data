@@ -1,0 +1,284 @@
+[
+  {
+    "id": 31,
+    "question": [
+      {
+        "type": "text",
+        "content": "A distribution that has positive excess kurtosis is:"
+      }
+    ],
+    "options": [
+      { "label": "A", "content": "more peaked than a normal distribution." },
+      { "label": "B", "content": "more skewed than a normal distribution." },
+      { "label": "C", "content": "less peaked than a normal distribution." }
+    ],
+    "answer": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "content": "A distribution with positive excess kurtosis is more peaked and has fatter tails than a normal distribution."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": [
+      {
+        "type": "text",
+        "content": "An investor has a portfolio with 10% cash, 30% bonds, and 60% stock. If last year's return on cash was 2.0%, the return on bonds was 9.5%, and the return on stock was 25%, what was the return on the investor's portfolio?"
+      }
+    ],
+    "options": [
+      { "label": "A", "content": "12.17%." },
+      { "label": "B", "content": "18.05%." },
+      { "label": "C", "content": "11.77%." }
+    ],
+    "answer": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "content": "Find the weighted mean of the returns: $(0.10 \\times 0.02) + (0.30 \\times 0.095) + (0.60 \\times 0.25) = 18.05\\%$"
+      },
+      {
+        "type": "table",
+        "rows": [
+          { "header": true, "cells": ["Asset", "Weight", "Return", "Weight × Return"] },
+          { "header": false, "cells": ["Cash", "10%", "2%", "$10\\% \\times 2\\% = 0.2\\%$"] },
+          { "header": false, "cells": ["Bonds", "30%", "9.5%", "$30\\% \\times 9.5\\% = 2.85\\%$"] },
+          { "header": false, "cells": ["Stock", "60%", "25%", "$60\\% \\times 25\\% = 15\\%$"] },
+          { "header": true, "cells": ["Weighted Average Return", "", "", "18.05%"] }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": [
+      {
+        "type": "text",
+        "content": "An investor has a $12,000 portfolio consisting of $7,000 in stock P with an expected return of 20% and $5,000 in stock Q with an expected return of 10%. What is the investor's expected return on the portfolio?"
+      }
+    ],
+    "options": [
+      { "label": "A", "content": "15.8%." },
+      { "label": "B", "content": "15.0%." },
+      { "label": "C", "content": "30.0%." }
+    ],
+    "answer": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "content": "Multiply the returns by the proportion that each stock represents in the portfolio, then sum."
+      },
+      {
+        "type": "table",
+        "rows": [
+          { "header": true, "cells": ["Stock", "Return", "Invested", "Proportion of Portfolio", "Return × Proportion"] },
+          { "header": false, "cells": ["P", "20%", "$7,000", "7/12", "$20\\% \\times 7/12$"] },
+          { "header": false, "cells": ["Q", "10%", "$5,000", "5/12", "$10\\% \\times 5/12$"] },
+          { "header": true, "cells": ["Total", "", "$12,000", "", "15.83%"] }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": [
+      {
+        "type": "text",
+        "content": "Michael Philizaire decides to calculate the geometric average of the appreciation/deprecation of his home over the last five years. Using comparable sales and market data he obtains from a local real estate appraiser, Philizaire calculates the year-to-year percentage change in the value of his home as follows: 20, 15, 0, –5, –5. The geometric return is closest to:"
+      }
+    ],
+    "options": [
+      { "label": "A", "content": "0.00%." },
+      { "label": "B", "content": "4.49%." },
+      { "label": "C", "content": "11.60%." }
+    ],
+    "answer": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "content": "The geometric return is calculated as follows:"
+      },
+      {
+        "type": "text",
+        "content": "$$[(1 + 0.20) \\times (1 + 0.15) \\times (1 + 0.0) \\times (1 - 0.05) \\times (1 - 0.05)]^{1/5} - 1$$"
+      },
+      {
+        "type": "text",
+        "content": "$$= [1.20 \\times 1.15 \\times 1.0 \\times 0.95 \\times 0.95]^{0.2} - 1 = 0.0449 = 4.49\\%$$"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "question": [
+      {
+        "type": "text",
+        "content": "The respective arithmetic mean and geometric mean returns of the following series of stock market returns are:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          { "header": false, "cells": ["Year 1", "14%"] },
+          { "header": false, "cells": ["Year 2", "6%"] },
+          { "header": false, "cells": ["Year 3", "−5%"] },
+          { "header": false, "cells": ["Year 4", "20%"] }
+        ]
+      }
+    ],
+    "options": [
+      { "label": "A", "content": "8.75%; 8.62%." },
+      { "label": "B", "content": "8.90%; 8.62%." },
+      { "label": "C", "content": "8.75%; 8.34%." }
+    ],
+    "answer": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "content": "Arithmetic mean: $\\frac{14 + 6 + (-5) + 20}{4} = 8.75\\%$"
+      },
+      {
+        "type": "text",
+        "content": "Geometric mean: $[(1.14 \\times 1.06 \\times 0.95 \\times 1.20)]^{0.25} - 1 = 8.34\\%$"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question": [
+      {
+        "type": "text",
+        "content": "Which of the following statements concerning kurtosis is most accurate?"
+      }
+    ],
+    "options": [
+      { "label": "A", "content": "A distribution with kurtosis of +2 has fatter tails than a normal distribution." },
+      { "label": "B", "content": "A leptokurtic distribution has excess kurtosis less than zero." },
+      { "label": "C", "content": "A leptokurtic distribution has fatter tails than a normal distribution." }
+    ],
+    "answer": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "content": "A leptokurtic distribution is more peaked than normal and has fatter tails. However, the excess kurtosis is greater than zero (not less than zero). A distribution with kurtosis of +2 does not necessarily have fatter tails than a normal distribution, since excess kurtosis (kurtosis minus 3) would be −1, indicating thinner tails."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question": [
+      {
+        "type": "text",
+        "content": "What are the median and the third quintile of the following data points, respectively?"
+      },
+      {
+        "type": "text",
+        "content": "9.2%, 10.1%, 11.5%, 11.9%, 12.2%, 12.8%, 13.1%, 13.6%, 13.9%, 14.2%, 14.8%, 14.9%, 15.4%"
+      }
+    ],
+    "options": [
+      { "label": "A", "content": "12.8%; 13.6%." },
+      { "label": "B", "content": "13.1%; 13.6%." },
+      { "label": "C", "content": "13.1%; 13.7%." }
+    ],
+    "answer": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "content": "The median is the midpoint of the data points. With 13 data points, the midpoint is the 7th term, which is 13.1%."
+      },
+      {
+        "type": "text",
+        "content": "For the third quintile (60th percentile), use the formula $L_y = \\frac{(n+1)(y)}{100}$:"
+      },
+      {
+        "type": "text",
+        "content": "$$L_{60} = \\frac{(14)(60)}{100} = 8.4$$"
+      },
+      {
+        "type": "text",
+        "content": "The third quintile falls between the 8th value (13.6%) and the 9th value (13.9%). Since $L$ is not a whole number, interpolate: $0.136 + (0.40)(0.139 - 0.136) = 0.1372 = 13.7\\%$."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question": [
+      {
+        "type": "text",
+        "content": "An analyst compiles the returns on Fund Q over the last four years:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          { "header": true, "cells": ["Year", "Return"] },
+          { "header": false, "cells": ["1", "4%"] },
+          { "header": false, "cells": ["2", "3%"] },
+          { "header": false, "cells": ["3", "2%"] },
+          { "header": false, "cells": ["4", "30%"] }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Which of the following will result in the lowest measure of the mean return?"
+      }
+    ],
+    "options": [
+      { "label": "A", "content": "The arithmetic mean." },
+      { "label": "B", "content": "The geometric mean." },
+      { "label": "C", "content": "The harmonic mean." }
+    ],
+    "answer": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "content": "Harmonic mean: $\\left(\\frac{1}{4}\\left(\\frac{1}{1.04} + \\frac{1}{1.03} + \\frac{1}{1.02} + \\frac{1}{1.30}\\right)\\right)^{-1} - 1 = 8.64\\%$"
+      },
+      {
+        "type": "text",
+        "content": "Geometric mean: $[(1.04)(1.03)(1.02)(1.30)]^{1/4} - 1 = 9.17\\%$"
+      },
+      {
+        "type": "text",
+        "content": "Arithmetic mean: $\\frac{4\\% + 3\\% + 2\\% + 30\\%}{4} = 9.75\\%$"
+      },
+      {
+        "type": "text",
+        "content": "The harmonic mean (8.64%) is the lowest of the three measures."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question": [
+      {
+        "type": "text",
+        "content": "Annual Returns on ABC Mutual Fund"
+      },
+      {
+        "type": "table",
+        "rows": [
+          { "header": true, "cells": ["Yr 1", "Yr 2", "Yr 3", "Yr 4", "Yr 5", "Yr 6", "Yr 7", "Yr 8", "Yr 9", "Yr 10"] },
+          { "header": false, "cells": ["11.0%", "12.5%", "8.0%", "9.0%", "13.0%", "7.0%", "15.0%", "2.0%", "−16.5%", "11.0%"] }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Assuming a mean of 7.2%, what is the sample standard deviation of the returns for ABC Mutual Fund for the period from Year 1 to Year 10?"
+      }
+    ],
+    "options": [
+      { "label": "A", "content": "7.8%." },
+      { "label": "B", "content": "9.8%." },
+      { "label": "C", "content": "9.1%." }
+    ],
+    "answer": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "content": "The sample standard deviation is calculated using the deviations of each year's return from the mean of 7.2%, squaring them, summing, dividing by $n - 1 = 9$, and taking the square root. This yields approximately 9.1%."
+      }
+    ]
+  }
+]
